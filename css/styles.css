@@ -1,0 +1,19 @@
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+#kitten {
+  float: left;
+  width: 50%;
+  height: 650px;
+}
+
+#tacocat {
+  float: right;
+  width: 50%;
+  height: 650px;
+}
