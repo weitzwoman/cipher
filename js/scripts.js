@@ -5,8 +5,19 @@ var capitalizeFirstLetter = function(userInput) {
   return userInput.charAt(0).toUpperCase() + userInput.substr(userInput.length - 1).toUpperCase();
 };
 
+//alert(capitalizeFirstLetter(userInput));
+
 var reverseCaps = function(capitalizeFirstLetter) {
-   return capitalizeFirstLetter.split("").reverse().join("");
+   return userInput + capitalizeFirstLetter.split("").reverse().join("");
 };
 
-alert(reverseCaps(capitalizeFirstLetter(userInput)));
+var letterCount = function(reverseCaps) {
+  var letterIndex = userInput.length/2;
+  return userInput.charAt(letterIndex) + reverseCaps;
+};
+
+var reverseString = function(letterCount) {
+   return letterCount.split("").reverse().join("");
+};
+
+alert(reverseString(letterCount(reverseCaps(capitalizeFirstLetter(userInput)))));
