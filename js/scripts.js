@@ -21,3 +21,13 @@ var reverseString = function(letterCount) {
 };
 
 alert(reverseString(letterCount(reverseCaps(capitalizeFirstLetter(userInput)))));
+
+$(document).ready(function() {
+  $("#kitten").click(function() {
+    alert(userInput);
+  });
+
+  $("#tacocat").click(function() {
+    alert(reverseString(letterCount(reverseCaps(capitalizeFirstLetter(userInput)))));
+  });
+});
